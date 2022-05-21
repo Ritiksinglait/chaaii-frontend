@@ -1,0 +1,142 @@
+@media (max-width:1400px){
+   
+
+
+@media (max-width:1199px){
+     .card3 , .card4 {
+        margin-top: 3rem;
+     }
+
+     .card7 , .card8 {
+        margin-top: 3rem;
+     }
+     
+
+}
+
+@media (max-width:991px){
+
+    /* mian section */
+    .main-section{
+        padding: 150px;
+        width: 100%;
+        height: 100%; 
+    }
+
+    .main-section .main-sec-text h1{
+       font-size: 2rem;
+    }
+    
+    .main-section .main-sec-text h2{
+        font-size: 2.5rem;
+                            
+    }
+    
+    .main-section .main-sec-text p{
+        font-size: 0.8rem;
+    }
+
+   /* about section */
+   .about-text{
+       padding-top: 2rem;
+}
+
+.about-text h2{
+    color: #fff;
+    font-weight: 600;
+    
+}
+
+.about-text p{
+    color: var(--secondary-color);
+    font-weight: 500;
+    
+}
+
+/* about 2section */
+.about2-sec{
+    padding-top: 1rem;
+    
+}
+
+.about2-text{
+    padding: 2rem 12px;
+}
+
+
+/* exploring menu */
+
+ .card3 , .card4  {
+   margin-top: 3rem;
+}
+
+  .card7 , .card8 {
+    margin-top: 3rem;
+ }
+ 
+
+ 
+}
+
+@media (max-width:767px){
+     /* exploring menu */
+    .card2 , .card3 , .card4 {
+        margin-top: 3rem;
+     }
+
+      .card6 , .card7 , .card8 {
+        margin-top: 3rem;
+     }
+
+     /* parllex section */
+
+     .parallex-sec{
+        background-position: 0 0px;
+        padding: 3rem 0;
+    }
+
+}
+
+@media (max-width:575px){
+     /* about section */
+
+.about-text h2{
+ font-size: 1.8rem;
+}
+
+.about-text p{
+ font-size: 1.2rem;
+}
+
+.about2-text h2{
+    font-size: 1.8rem;
+   }
+   
+   .about2-text p{
+    font-size: 1.2rem;
+   }
+
+   /* exploring menu */
+
+   .card2 , .card3 , .card4 {
+    margin-top: 3rem;
+ }
+
+  .card6 , .card7 , .card8 {
+    margin-top: 3rem;
+ }
+
+ /* offer section */
+ .offer-sec button{
+   margin-top: 1rem;
+}
+
+
+/* parllex section */
+
+.parallex-sec{
+    background-position: 0;
+    padding: 3rem 0;
+}
+
+}}

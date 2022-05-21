@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+    *,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    color: var(--primary-color) !important;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ===========================================================varibale degsine====================================================== */
+:root{
+    --primary-color: #795c34;
+    --secondary-color: #c8ad7f;
+    --third-color: #311d10;
+    --background-color:rgb(34, 33, 33);
+    --secondbgcolor:rgba(7, 7, 7, 0.932);
+    --primary-font: font-family: 'Montserrat', sans-serif;
+}
+
+/* ========================================================custom css design======================================================== */
+
+.btn{
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: var(--primary-color);
+    transition: all 0.5s ease;
+    font-weight: 800;
+    color: white;
+}
+
+.btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+    outline: unset;
+    /* border: unset; */
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+body{
+    font-family: var(--primary-font);
+}
+
+/* ====================================================navigation bar styling ========================================================*/
+
+.navbar{
+    background-color: var(--background-color);
+}
+
+.navbar .navbar-brand img{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.navbar .nav-item a{
+    margin-right: 1rem;
+    color: white;
+}
+
+.dropdown-menu li a{
+    color: black !important;
+}
+
+.navbar-toggler{
+    color: var(--primary-color);
+    border: unset;
+    outline: unset;
+    box-shadow: 0;
+}
+
+/*================================================================ main section=============================================== */
+
+.main-section{
+    padding: 200px;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/reyhaneh-ahmadi-7ffS5VydFBA-unsplash.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.main-section .main-sec-text{
+    
+    text-align: center;
+    
+}
+
+.main-section .main-sec-text h1{
+    font-weight: 600;
+    color: white;
+}
+
+.main-section .main-sec-text h2{
+    font-weight: 600;
+    color: var(--primary-color);
+    font-family: 'Aclonica', sans-serif;
+    font-size: 3rem;
+                        
+}
+
+.main-section .main-sec-text p{
+    font-weight: 400;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* ==========================================================ounter styling==================================================== */
+
+.counter-sec{
+    background-color: var(--background-color);
+}
+
+.counter-sec .counter-text{
+    padding: 1.25rem;
+}
+
+.counter-text h2{
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.counter-text p{
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+/*====================================================== styling about section ====================================================*/
+
+.about-sec{
+    background-color: var(--secondbgcolor);
+}
+
+.about-info{
+    padding: 6rem 0;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0px 0px 0 rgba(248, 248, 248, 0.5), 0 6px 20px 0 rgba(248, 248, 248, 0.19);
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-text h2{
+    color: #fff;
+    font-weight: 600;
+}
+
+.about-text p{
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.about-text button{
+    display: flex;
+    align-self: flex-start;
+}
+
+/* =======================================================2nd about section ====================================================*/
+
+.about2-sec{
+    padding: 3rem 0 6rem 0;
+}
+
+.about2-text{
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.about2-sec h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.about2-sec p{
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.about2-sec ul{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.about2-sec li{
+    color: var(--primary-color);
+    list-style: none;
+
+}
+
+.about2-sec li i{
+    padding-right: 1rem;
+}
+
+.about2-sec img{
+    box-shadow: 0 0px 0px 0 rgba(248, 248, 248, 0.5), 0 6px 20px 0 rgba(248, 248, 248, 0.19);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.about2-text button{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 1rem;
+}
+
+/* ================================================================about 3 section =====================================================*/
+.about3-sec{
+    background-image: url("images/nordwood-themes-Ex5TQsRANZk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding: 3rem 0;
+    
+}
+
+.about3-sec h3{
+    color: #fff;
+    font-weight: 500;
+}
+
+.about3-sec p{
+    color: var(--secondary-color);
+} 
+
+
+/* ========================================================explore beverages styling=============================================== */
+
+.explore{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--secondbgcolor);
+}
+
+.explore h1{
+    color: var(--primary-color);
+}
+
+.explore p{
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.card{
+    border: 0px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 1rem;
+    background-color: var(--secondbgcolor);
+}
+
+.card-info .card img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 20px;
+    filter: grayscale(1);
+    transition: all 0.5s ease;
+}
+
+.card h5{
+    color: var(--secondary-color);
+}
+
+.card .price{
+    color: red;
+    font-size: 1.2rem;
+}
+
+del{
+    color: grey;
+    margin-left: 1rem;
+}
+
+.card .btn{
+    margin-top: 0.5rem;
+}
+
+.imgbox{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-info .card img:hover{
+    filter: grayscale(0);
+    transform: scale(1.25);
+    transition: all 1s ease;
+    border-radius: 20px;
+    height: 25rem;
+    /* width: 100%; */
+}
+
+.card-info2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.card-info2 .card img{
+    width: 100%;
+    height: 25rem;
+    border-radius: 20px;
+    filter: grayscale(1);
+}
+
+.card-info2 .card img:hover{
+    filter: grayscale(0);
+    transform: scale(1.25);
+    transition: all 1s ease;
+    border-radius: 20px;
+    height: 25rem;
+    width: 100%;
+}
+
+
+/*============================================= styling testimonial================================================== */
+
+.testimonial-sec{
+    background-color :#000000ee ;
+}
+
+.testimonial-sec h1{
+    color: var(--primary-color);
+    padding-top: 3rem;
+}
+
+.testimonial-sec p{
+    color: #fff;
+}
+
+.carousel-inner .carousel-item{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    padding: 10rem 3.125rem;
+    background-color: var(--secondbgcolor);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.carousel-item  img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    position: center;
+}
+
+.carousel-item h5{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.carousel-item p{
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.carousel-item i{
+    color: goldenrod;
+    margin-left: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-indicators button{
+    background-color: var(--secondary-color) !important;
+    width: 10px !important;
+    height: 10px !important;
+    outline: none;
+    border-radius: 50%;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+    margin-left: 0.5rem !important;
+}
+
+/* styling faq */
+.faq-sec{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: var(--secondbgcolor);
+}
+
+ .faq-sec h1{
+     text-align: center;
+     color: var(--primary-color);
+     padding-bottom: 3rem;
+ }
+
+
+
+ .faq-sec h6{
+     color: var(--secondary-color);
+     font-size: 1.2rem;
+ }
+
+ .faq-sec p{
+     color: white;
+     padding-top: 0.2rem;
+ }
+
+ .faq-sec i{
+     color: red;
+     margin-right: 0.5rem;
+ }
+
+ /* =====================================================parallex section============================================================= */
+
+ .parallex-sec{
+     width: 100%;
+     background: url("images/parallex/arfan-abdulazeez-oi0FvNhkHy8-unsplash.jpg") no-repeat center;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: 0 30px;
+     padding: 3rem 0;
+ }
+
+ .parallex-sec h3{
+     color: white;
+     font-weight: 700;
+     font-size: 2rem;
+     letter-spacing: 0.3rem;
+ }
+
+
+ /* =================================================================offer sec=============================================================== */
+ .offer-sec{
+     padding: 6rem 0;
+     background-color:#000000ee ;
+ }
+
+ .offer-sec h1{
+     color: var(--primary-color);
+ }
+
+ .offer-sec p{
+     color: white;
+     padding-top: 0.5rem;
+ }
+
+ .offer-sec form{
+     padding-top: 1rem;
+ }
+
+ .offer-sec input{
+     padding: 0.5rem 0;
+     border:3px solid var(--primary-color);
+     border-radius: 5px;
+     background-color: #000000ee;
+     font-weight: 800;
+    color: white;
+    margin-right: 1rem;
+ }
+
+ .offer-sec button{
+     padding: 0.5rem 1rem;
+     margin-bottom: 0.3rem;
+ }
+
+ /* =======================================================fotter section======================================================== */
+
+ .footer{
+     padding: 3rem 0 0;
+     background-color: var(--secondbgcolor);
+ }
+
+ .footer span{
+     color: white;
+     display: inline-block;
+     padding-left: 1rem;
+     justify-content: space-between;
+ }
+
+ .footer i{
+     color: var(--primary-color);
+     margin-top: 1rem;
+     margin-left: 1rem;
+     font-size: 1.5rem;
+ }
+
+ .footer h6{
+     color: var(--secondary-color);
+     margin-top: 1rem;
+     padding-left: 1rem;
+ }
+
+
+
